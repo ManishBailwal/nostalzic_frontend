@@ -3,14 +3,10 @@ import "./globals.css";
 
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-import {
-  cormorant,
-  greatVibes,
-  manrope,
-} from "@/lib/fonts";
+
 
 export const metadata: Metadata = {
-  title: "Belle Amore",
+  title: "Nostalzic",
   description: "Love Is Beautiful",
 };
 
@@ -22,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${manrope.variable} ${greatVibes.variable} scroll-smooth`}
+     
     >
       <body className="flex min-h-screen flex-col bg-background text-text antialiased">
         <Navbar />
