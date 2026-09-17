@@ -18,6 +18,7 @@ export default function Header() {
 
   const navItems = [
     { label: "How it works", href: "#how-it-works" },
+    {label: "Explore", href:"/explore"},
     { label: "Our books", href: "#books" },
     { label: "Why Nostalzic", href: "#why-nostalzic" },
   ];

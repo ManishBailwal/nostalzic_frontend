@@ -6,8 +6,8 @@ import Navbar from "@/components/layout/Navbar";
 
 
 export const metadata: Metadata = {
-  title: "Nostalzic",
-  description: "Love Is Beautiful",
+  title: "Nostalzic: Save Today. Relive Tomorrow.",
+  description: "Nostalzic helps you save the moments that matter today, so you can relive them tomorrow and turn them into stories worth keeping. Because a mirror doesn't show the past. 🪞❤️",
 };
 
 export default function RootLayout({
